@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.title("🥿 Shoe Sales Dashboard")
 
 # File uploader
-uploaded_file = st.file_uploader("📂 Upload SHOES.csv file", type="csv")
+uploaded_file = st.file_uploader("SHOES.csv", type="csv")
 
 # Load and clean the data if a file is uploaded
 if uploaded_file is not None:
